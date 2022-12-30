@@ -8,11 +8,11 @@ public class Contact {
     private String state;
     private String phoneNo;
     private String zipCode;
-
+    private String gmail ;
     public Contact() {
     }
 
-    public Contact(String name, String SurName, String address, String city, String state, String phoneNo, String zipCode) {
+    public Contact(String name, String SurName, String address, String city, String state, String phoneNo, String zipCode, String gmail) {
         this.name = name;
         this.SurName = SurName;
         this.address = address;
@@ -20,6 +20,7 @@ public class Contact {
         this.state = state;
         this.phoneNo = phoneNo;
         this.zipCode = zipCode;
+        this.gmail = gmail;
     }
 
     public String getName() {
@@ -77,6 +78,15 @@ public class Contact {
     public void setZipCode(String zipCode) {
         this.zipCode = zipCode;
     }
+    public String getGmail() {
+
+        return gmail;
+    }
+
+    public void setGmail(String gmail) {
+
+        this.gmail = gmail;
+    }
 
     @Override
     public String toString() {
@@ -88,6 +98,7 @@ public class Contact {
                 ", state='" + state + '\'' +
                 ", phoneNo='" + phoneNo + '\'' +
                 ", zipCode='" + zipCode + '\'' +
+                ", gmail='" + gmail + '\'' +
                 '}';
 
 }}
