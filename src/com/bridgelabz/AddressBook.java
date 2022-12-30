@@ -9,7 +9,7 @@ public class AddressBook {
         System.out.println("Enter the details of contact person : ");
         System.out.print("Enter first name : ");
         contactPerson.setName(sc.next());
-        System.out.print("Enter Last name : ");
+        System.out.print("Enter surName : ");
         contactPerson.setLastName(sc.next());
         System.out.println("Enter the Address : ");
         contactPerson.setAddress(sc.next());
