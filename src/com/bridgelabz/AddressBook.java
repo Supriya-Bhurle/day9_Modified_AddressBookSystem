@@ -21,6 +21,10 @@ public class AddressBook {
         contactPerson.setZipCode(sc.next());
         System.out.println("Enter the Mobile no : ");
         contactPerson.setPhoneNo(sc.next());
+        System.out.println("Enter the gmail : ");
+        contactPerson.setPhoneNo(sc.next());
+
     }
+
 
 }
